@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-serif tracking-wide;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    @apply font-sans;
+}
+
+a:hover {
+    @apply underline;
+}
+
+a.active {
+    @apply underline;
+}
