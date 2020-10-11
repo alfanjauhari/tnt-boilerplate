@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Head from 'next/head';
 import { DefaultSeo } from 'next-seo';
 import config from '~/utils/config';

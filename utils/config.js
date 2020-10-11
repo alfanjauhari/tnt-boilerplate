@@ -1,7 +1,7 @@
 module.exports = {
-  TITLE: 'Awesome Website',
-  DESCRIPTION: 'Awesome Website using Next JS and Tailwind CSS',
-  BASE_URL: 'https://example.com',
+  TITLE: 'TNT Stack',
+  DESCRIPTION: 'TypeScript, Next JS, Tailwind CSS Boilerplate',
+  BASE_URL: 'https://tnt-boilerplate.vercel.app/',
   MENU: [
     {
       name: 'Home',
