@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   TITLE: 'Awesome Website',
   DESCRIPTION: 'Awesome Website using Next JS and Tailwind CSS',
   BASE_URL: 'https://example.com',
@@ -12,4 +12,4 @@ export default {
       path: '/blog'
     }
   ]
-};
+}

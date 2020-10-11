@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <div className="hello">Hello World</div>
       </Main>
     </>
-  )
+  );
 };
 
 export default Home;

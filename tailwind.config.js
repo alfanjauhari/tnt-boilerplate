@@ -1,9 +1,12 @@
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    purgeLayersByDefault: true
   },
-  purge: ['./pages/**/*.tsx', './pages/**/*.jsx', './pages/**/*.js'],
+  purge: {
+    layers: ['utilities'],
+    content: ['./**/*.tsx', './**/*.html']
+  },
   target: 'relaxed',
   prefix: '',
   important: false,
